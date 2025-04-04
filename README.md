@@ -1,7 +1,11 @@
-# VICO 接口文档
+---
+icon: hand-wave
+---
 
-1. Wss Base Url：wss://fstream.vicoam.com/ws/
-2. HTTP Base Url： https://api.vicoam.com
+# 量化信号API接口文档
+
+1. Wss Base Url：wss://fstream.xxx.com/ws/
+2. HTTP Base Url： https://api.xxx.com
 3. Websocket 服务器每 10 秒发送Ping消息，
    * 如果Websocket服务器在 3 分钟之内没有收到 Pong 消息应答，连接会被断开
    * 每过 12 个小时需要断开重新连接

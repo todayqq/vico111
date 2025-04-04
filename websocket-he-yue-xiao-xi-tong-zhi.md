@@ -1,6 +1,6 @@
 # Websocket 合约消息通知
 
-* Base Url：wss://fstream.vicoam.com/ws/
+* Base Url：wss://fstream.xxx.com/ws/
 
 ### 开单
 
@@ -55,8 +55,8 @@ price 为开仓价格、quantity 为开仓数量
 参数解释
 
 * e：STOP\_MARKET (止损) / TAKE\_PROFIT\_MARKET(止盈)
-* order\_status：NEW 为前挂单 / CANCELED 撤销订单&#x20;
-* price 触发价&#x20;
+* order\_status：NEW 为前挂单 / CANCELED 撤销订单
+* price 触发价
 * quantity 触发数量，当触发数量为 0 且 close\_position 为 true 时，此时为全仓止盈止损
 
 ### 平仓
@@ -85,7 +85,7 @@ price 为开仓价格、quantity 为开仓数量
 参数解释
 
 * order\_type： LIMIT(限价) / MARKET(市价) / STOP\_MARKET(止损) / TAKE\_PROFIT\_MARKET(止盈)
-* price 触发价&#x20;
+* price 触发价
 * quantity 触发数量
 * profit\_amount 盈亏金额
 

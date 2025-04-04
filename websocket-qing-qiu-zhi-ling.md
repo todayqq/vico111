@@ -1,6 +1,6 @@
 # WebSocket 请求指令
 
-* Base Url：wss://fstream.vicoam.com/ws/
+* Base Url：wss://fstream.xxx.com/ws/
 
 请求指令
 
@@ -69,8 +69,8 @@
 }
 ```
 
-**Response：**[\
-](#user-content-fn-1)[^1]认证成功
+**Response：**\
+认证成功
 
 ```
 {
@@ -391,5 +391,3 @@ Response 参数详细请查看币安 [当前挂单 (USER\_DATA)](https://binance
 	}]
 }
 ```
-
-[^1]: 
